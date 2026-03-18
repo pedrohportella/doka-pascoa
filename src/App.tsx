@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Hero } from './components/Hero'
+import { ProductGallery } from './components/ProductGallery'
 import { HowToParticipate } from './components/HowToParticipate'
 import { ParticipationModal } from './components/ParticipationModal'
 import { Footer } from './components/Footer'
@@ -11,6 +12,7 @@ function App() {
     <div className="min-h-screen flex flex-col">
       <main className="flex-1">
         <Hero onOpenModal={() => setModalOpen(true)} />
+        <ProductGallery />
         <HowToParticipate onOpenModal={() => setModalOpen(true)} />
       </main>
       <Footer />
