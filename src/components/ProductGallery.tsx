@@ -39,7 +39,7 @@ export function ProductGallery() {
           <p className="text-sm font-medium tracking-widest uppercase mb-3" style={{ color: '#C9A96E' }}>
             Nossos produtos
           </p>
-          <h2 className="font-serif text-3xl md:text-4xl font-bold" style={{ color: '#3E2920' }}>
+          <h2 className="font-serif text-3xl md:text-4xl font-bold" style={{ color: '#334B61' }}>
             Feito com amor e ingredientes artesanais
           </h2>
         </div>

@@ -42,7 +42,7 @@ export function Hero({ onOpenModal }: HeroProps) {
       <div
         className="absolute bottom-0 right-0 w-96 h-96 rounded-full opacity-20 pointer-events-none"
         style={{
-          background: 'radial-gradient(circle, #4A6B8A 0%, transparent 70%)',
+          background: 'radial-gradient(circle, #44607C 0%, transparent 70%)',
           transform: 'translate(30%, 30%)',
         }}
       />
@@ -104,12 +104,12 @@ export function Hero({ onOpenModal }: HeroProps) {
         {/* Headline */}
         <h1
           className={`font-serif text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 ${cls('delay-[150ms]')}`}
-          style={{ color: '#3E2920', letterSpacing: '-0.02em' }}
+          style={{ color: '#334B61', letterSpacing: '-0.02em' }}
         >
           Ganhe um Ovo{' '}
           <span
             className="italic"
-            style={{ color: '#5C3D2E' }}
+            style={{ color: '#44607C' }}
           >
             Especial
           </span>{' '}
@@ -128,7 +128,7 @@ export function Hero({ onOpenModal }: HeroProps) {
         {/* Description */}
         <p
           className={`text-base md:text-lg leading-relaxed mb-10 max-w-lg mx-auto ${cls('delay-[350ms]')}`}
-          style={{ color: '#7A5240' }}
+          style={{ color: '#5A7A96' }}
         >
           Participe do nosso sorteio e concorra a um dos nossos ovos especiais
           de Páscoa, feito com amor e ingredientes artesanais. Para participar,
@@ -141,7 +141,7 @@ export function Hero({ onOpenModal }: HeroProps) {
             onClick={onOpenModal}
             className="group relative inline-flex items-center gap-2 px-8 py-4 rounded-full text-base md:text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105 active:scale-95"
             style={{
-              background: 'linear-gradient(135deg, #5C3D2E 0%, #7A5240 100%)',
+              background: 'linear-gradient(135deg, #44607C 0%, #5A7A96 100%)',
               boxShadow: '0 4px 20px rgba(92,61,46,0.35)',
             }}
           >

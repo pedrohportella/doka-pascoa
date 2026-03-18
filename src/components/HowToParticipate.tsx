@@ -64,7 +64,7 @@ export function HowToParticipate({ onOpenModal }: { onOpenModal: () => void }) {
           </span>
           <h2
             className="font-serif text-3xl md:text-4xl font-bold"
-            style={{ color: '#3E2920' }}
+            style={{ color: '#334B61' }}
           >
             Como participar?
           </h2>
@@ -115,13 +115,13 @@ export function HowToParticipate({ onOpenModal }: { onOpenModal: () => void }) {
                 {/* Text */}
                 <h3
                   className="font-serif text-lg font-semibold mb-2"
-                  style={{ color: '#3E2920' }}
+                  style={{ color: '#334B61' }}
                 >
                   {step.title}
                 </h3>
                 <p
                   className="text-sm leading-relaxed"
-                  style={{ color: '#7A5240' }}
+                  style={{ color: '#5A7A96' }}
                 >
                   {step.description}
                 </p>
@@ -154,7 +154,7 @@ export function HowToParticipate({ onOpenModal }: { onOpenModal: () => void }) {
         >
           <p
             className="text-sm mb-5 font-medium"
-            style={{ color: '#7A5240' }}
+            style={{ color: '#5A7A96' }}
           >
             Já seguiu e compartilhou? Agora é só preencher o formulário! 🐣
           </p>
@@ -162,7 +162,7 @@ export function HowToParticipate({ onOpenModal }: { onOpenModal: () => void }) {
             onClick={onOpenModal}
             className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-semibold text-white transition-all duration-300 hover:shadow-lg hover:scale-105 active:scale-95"
             style={{
-              background: 'linear-gradient(135deg, #4A6B8A 0%, #6B8FAD 100%)',
+              background: 'linear-gradient(135deg, #44607C 0%, #5A7A96 100%)',
               boxShadow: '0 4px 16px rgba(74,107,138,0.3)',
             }}
           >

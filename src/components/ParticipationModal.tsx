@@ -220,7 +220,7 @@ export function ParticipationModal({ isOpen, onClose }: Props) {
         <div
           className="px-6 pt-6 pb-5"
           style={{
-            background: 'linear-gradient(135deg, #5C3D2E 0%, #7A5240 100%)',
+            background: 'linear-gradient(135deg, #44607C 0%, #5A7A96 100%)',
           }}
         >
           <div className="flex items-center justify-between">
@@ -307,7 +307,7 @@ export function ParticipationModal({ isOpen, onClose }: Props) {
                   onDragLeave={() => setDragOver(false)}
                   className="relative cursor-pointer rounded-xl transition-all duration-200"
                   style={{
-                    border: `2px dashed ${dragOver ? '#4A6B8A' : errors.print ? '#e85555' : '#C9A96E'}`,
+                    border: `2px dashed ${dragOver ? '#44607C' : errors.print ? '#e85555' : '#C9A96E'}`,
                     background: dragOver
                       ? 'rgba(74,107,138,0.08)'
                       : previewUrl
@@ -342,7 +342,7 @@ export function ParticipationModal({ isOpen, onClose }: Props) {
                       <span className="text-3xl block mb-2">📸</span>
                       <p
                         className="text-sm font-medium"
-                        style={{ color: '#7A5240' }}
+                        style={{ color: '#5A7A96' }}
                       >
                         Arraste ou clique para enviar o print
                       </p>
@@ -390,8 +390,8 @@ export function ParticipationModal({ isOpen, onClose }: Props) {
                 style={{
                   background:
                     submitState === 'loading'
-                      ? 'linear-gradient(135deg, #7A5240 0%, #9A6A50 100%)'
-                      : 'linear-gradient(135deg, #5C3D2E 0%, #7A5240 100%)',
+                      ? 'linear-gradient(135deg, #5A7A96 0%, #9A6A50 100%)'
+                      : 'linear-gradient(135deg, #44607C 0%, #5A7A96 100%)',
                   boxShadow: '0 4px 16px rgba(92,61,46,0.3)',
                 }}
               >
@@ -430,14 +430,14 @@ export function ParticipationModal({ isOpen, onClose }: Props) {
           border-radius: 0.75rem;
           border: 1.5px solid rgba(201,169,110,0.35);
           background: rgba(255,255,255,0.7);
-          color: #3E2920;
+          color: #334B61;
           font-size: 0.9375rem;
           font-family: 'DM Sans', sans-serif;
           transition: border-color 0.2s, box-shadow 0.2s;
           outline: none;
         }
         .form-input:focus {
-          border-color: #4A6B8A;
+          border-color: #44607C;
           box-shadow: 0 0 0 3px rgba(74,107,138,0.2);
         }
         .form-input::placeholder {
@@ -466,7 +466,7 @@ function Field({
     <div>
       <label
         className="block text-sm font-medium mb-1.5"
-        style={{ color: '#5C3D2E' }}
+        style={{ color: '#44607C' }}
       >
         {label}
         {required && <span style={{ color: '#C9A96E' }}> *</span>}
@@ -510,18 +510,18 @@ function SuccessCard({ onClose }: { onClose: () => void }) {
       <div className="text-6xl mb-4 block">🎉</div>
       <h3
         className="font-serif text-2xl font-bold mb-2"
-        style={{ color: '#3E2920' }}
+        style={{ color: '#334B61' }}
       >
         Participação registrada!
       </h3>
-      <p className="text-sm leading-relaxed mb-6" style={{ color: '#7A5240' }}>
+      <p className="text-sm leading-relaxed mb-6" style={{ color: '#5A7A96' }}>
         Boa sorte! Acompanhe o resultado pelo nosso Instagram{' '}
         <a
           href="https://instagram.com/querodoka"
           target="_blank"
           rel="noopener noreferrer"
           className="font-semibold underline underline-offset-2"
-          style={{ color: '#4A6B8A' }}
+          style={{ color: '#44607C' }}
         >
           @querodoka
         </a>{' '}

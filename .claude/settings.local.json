@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(npm install)",
-      "Bash(npm install -D tailwindcss@3 postcss autoprefixer)"
+      "Bash(npm install -D tailwindcss@3 postcss autoprefixer)",
+      "Bash(gh repo create doka-pascoa --public --source=. --remote=origin --push)",
+      "Bash(npm install -g vercel)",
+      "Bash(npx vercel --version)",
+      "Bash(git add public/images/ src/components/ProductGallery.tsx src/App.tsx)"
     ]
   }
 }

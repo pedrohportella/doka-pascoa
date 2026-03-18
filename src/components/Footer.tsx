@@ -3,7 +3,7 @@ export function Footer() {
     <footer
       className="py-8 px-6 text-center"
       style={{
-        background: '#3E2920',
+        background: '#334B61',
         borderTop: '1px solid rgba(201,169,110,0.15)',
       }}
     >

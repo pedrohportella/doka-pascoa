@@ -7,14 +7,14 @@ export default {
         cream: '#F5F0E8',
         'cream-dark': '#EDE5D5',
         blue: {
-          dusty: '#4A6B8A',
-          'dusty-light': '#6B8FAD',
-          'dusty-dark': '#3A5570',
+          dusty: '#44607C',
+          'dusty-light': '#5A7A96',
+          'dusty-dark': '#334B61',
         },
         choco: {
-          DEFAULT: '#5C3D2E',
-          light: '#7A5240',
-          dark: '#3E2920',
+          DEFAULT: '#44607C',
+          light: '#5A7A96',
+          dark: '#334B61',
         },
         blush: {
           DEFAULT: '#E8C4B8',
