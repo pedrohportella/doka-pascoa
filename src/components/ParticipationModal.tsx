@@ -10,7 +10,7 @@ import { useFloatingEmojis } from '../hooks/useFloatingEmojis'
 const schema = z.object({
   nome: z.string().min(3, 'Nome deve ter pelo menos 3 caracteres'),
   whatsapp: z
-    .string({ required_error: 'WhatsApp é obrigatório' })
+    .string()
     .min(1, 'WhatsApp é obrigatório')
     .min(14, 'WhatsApp inválido — preencha o número completo')
     .regex(/^\(\d{2}\)\s\d{4,5}-\d{4}$/, 'Formato: (xx) xxxxx-xxxx'),
